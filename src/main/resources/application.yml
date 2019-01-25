@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost/test
+    username: root
+    password: root
+  thymeleaf:
+    prefix: classpath:/templates/
+  http:
+    encoding:
+      force: true
+      charset: utf-8
+      enabled: true
+server:
+  tomcat:
+    uri-encoding: UTF-8
