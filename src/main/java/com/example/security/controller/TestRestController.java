@@ -32,6 +32,7 @@ public class TestRestController {
      */
     @RequestMapping("/hello")
     public Integer helloWorld() {
+        System.out.println("测试冲突55");
        return port;
     }
 
