@@ -32,7 +32,7 @@ public class TestRestController {
      */
     @RequestMapping("/hello")
     public Integer helloWorld() {
-        System.out.println("测试冲突11");
+        System.out.println("测试冲突22");
         return port;
     }
 
